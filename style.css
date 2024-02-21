@@ -1,0 +1,36 @@
+/* Add new font from file */
+@font-face {
+  font-family: roboto;
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    background-color: #1F2937;
+    
+}
+
+.header-logo {
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.header-links li {
+    list-style: none;
+}
+
+.header-links li a {
+    text-decoration: none;
+    color: aliceblue;
+    
+}
