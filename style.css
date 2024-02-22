@@ -55,7 +55,6 @@
   width: 300px;
   font-weight: bold;
   color: aliceblue;
-  margin-bottom: 8px;
 }
 
 .container-head p {
@@ -65,4 +64,20 @@
 
 .header-img img {
   width: 400px;
+}
+
+.container-head-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-head-left button {
+  background-color: #3882F6;
+  color: aliceblue;
+  padding: 5px 0 5px 0;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 100px
+  
 }
