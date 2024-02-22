@@ -3,6 +3,10 @@
   font-family: roboto;
   src: url(fonts/Roboto/Roboto-Regular.ttf);
 }
+@font-face {
+  font-family: roboto-black;
+  src: url(fonts/Roboto/Roboto-Black.ttf);
+}
 
 * {
   font-family: roboto, Arial, Helvetica, sans-serif;
@@ -37,4 +41,24 @@
     text-decoration: none;
     color: aliceblue;
     
+}
+
+.container-head {
+  display: flex;
+  padding: 80px 140px 80px 140px;
+  background-color: #1F2937;
+  justify-content: space-between;
+}
+
+.container-head h1 {
+  font-family: roboto-black;
+  width: 300px;
+  font-weight: bold;
+  color: aliceblue;
+  margin-bottom: 8px;
+}
+
+.container-head p {
+  color: aliceblue;
+  width: 350px;
 }
