@@ -13,14 +13,14 @@
   src: url(fonts/Roboto/Roboto-LightItalic.ttf);
 }
 
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 768px) {
   .container-head {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 5% 100px 5%;
+    flex-shrink: 0;
   }
-}
+} */
 
 * {
   font-family: roboto, Arial, Helvetica, sans-serif;
@@ -32,7 +32,7 @@
   height: 50px;
   background-color: #1f2937;
   justify-content: space-between;
-  padding: 0 10% 0 10%;
+  padding: 0 18% 0 18%;
 }
 
 body {
@@ -66,9 +66,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   background-color: #1f2937;
-  justify-content: space-between;
+  justify-content: center;
   padding: 100px 10% 100px 10%;
   flex-shrink: 1;
+  gap: 100px;
+  
 }
 
 .container-head h1 {
@@ -76,7 +78,7 @@ body {
   width: 550px;
   font-weight: bold;
   color: aliceblue;
-  font-size: 48px;
+  font-size: 38px;
 }
 
 .container-head p {
@@ -100,11 +102,11 @@ body {
 .container-head-left button {
   background-color: #3882f6;
   color: aliceblue;
-  padding: 8px 0 8px 0;
+  padding: 20px 20px 20px 20px;
   font-weight: bold;
   border-radius: 8px;
-  width: 110px;
-  font-size: 16px;
+  width: auto;
+  font-size: 28px;
   margin-top: 10px;
 }
 
@@ -161,14 +163,59 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 0 50px 0;
+  padding: 80px 20% 80px 20%;
   background-color: #e5e7eb;
+
 }
 
 .quote-container p {
   align-self: center;
-  width: 80%;
-  max-width: 900px;
   font-size: 36px;
   font-family: roboto-italic-light;
+  color: #1f2937;
+  max-width: 650px;
+}
+
+.quote-container span {
+  margin-left: auto;
+  
+}
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 100px 0;
+}
+
+.sign-up-card {
+  background-color: #3882f6;
+  display: flex;
+  padding: 40px 100px 40px 100px;
+  border-radius: 8px;
+  min-width: 400px;
+}
+
+.sign-up-button-container {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.sign-up-text {
+  color: antiquewhite;
+  font-size: 18px;
+}
+
+.sign-up-text h4 {
+  font-size: 24px;
+}
+
+.sign-up-button-container button {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border-radius: 8px;
+  border: 3px wheat solid;
+  flex-shrink: 0;
+  padding: 5px 25px 5px 25px;
+  font-weight: bold;
 }
